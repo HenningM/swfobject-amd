@@ -1,8 +1,8 @@
 {
-    "name": "swfobject",
-    "description": "SWFObject is a free, open-source tool for embedding swf content in websites.",
+    "name": "swfobject-munter",
+    "description": "SWFObject is a free, open-source tool for embedding swf content in websites. This version is a seperate fork for developers that know their stuff.",
     "main": "./swfobject/src/swfobject.js",
-    "version": "2.2.0",
+    "version": "2.3.0",
     "repository": {
         "type": "git",
         "url": "git://github.com/Munter/swfobject.git"
