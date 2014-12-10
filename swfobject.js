@@ -661,7 +661,7 @@
                     ua[k] = null;
                 }
                 ua = null;
-                if( swfobject ){
+                if( typeof swfobject !== "undefined" ){
 	                for (var l in swfobject) {
 	                    swfobject[l] = null;
 	                }
