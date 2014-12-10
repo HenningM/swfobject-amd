@@ -661,10 +661,12 @@
                     ua[k] = null;
                 }
                 ua = null;
-                for (var l in swfobject) {
-                    swfobject[l] = null;
+                if( swfobject ){
+	                for (var l in swfobject) {
+	                    swfobject[l] = null;
+	                }
+	                swfobject = null;
                 }
-                swfobject = null;
             });
         }
     }();
